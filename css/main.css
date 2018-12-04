@@ -1,0 +1,114 @@
+html {
+  font-family: "Georgia", serif;
+  color: #003354;
+}
+
+header {
+  position: relative;
+  display: block;
+}
+
+nav li {
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+}
+
+a {
+  color: #003354;
+  display: block;
+  text-decoration: none;
+}
+
+.green {
+  background-color: #3f5459;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+}
+
+.current {
+  background-color: #5c7187;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.banner {
+  text-align: center;
+  position: relative;
+}
+
+.banner-content {
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.transparent-white {
+  background-color: rgba(255, 255, 255, .75);
+  color: #003354;
+  border-radius: 10px;
+}
+
+.table-icon {
+  max-height: 3em;
+}
+
+.logo {
+  max-height: 3em;
+}
+
+.btn:hover {
+  background-color: #003354;
+  color: #fff;
+}
+
+input,
+textarea,
+select,
+[type="radio"] + label::before,
+[type="checkbox"] + label::before {
+  border: 2px solid #003354;
+}
+
+fieldset {
+  border-top: none;
+}
+
+.textbox {
+  height: 10em;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.table-width {
+  min-width: 40em;
+}
+
+.card-width {
+  max-width: 14em;
+  max-height: 27em;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .logo-left {
+    text-align: left;
+  }
+
+  nav {
+    text-align: right;
+  }
+
+  nav li {
+    width: auto;
+  }

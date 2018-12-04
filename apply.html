@@ -29,8 +29,77 @@
     </div>
   </header>
 
-  <main>
+  <main role="main" id="main" tabindex="0">
+    <section class="pad-t">
+      <div class="wrapper">
+        <h2 class="mega gutter-1-2 push-0" id="form">Sign up form</h2>
 
+        <form class="push-0 grid island" method="POST" action="https://formspree.io/lepi0068@algonquinlive.com">
+          <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 gutter">
+            <div class="push">
+              <label for="name">Name</label>
+              <input id="name" name="name" required>
+            </div>
+
+            <div class="push">
+              <label for="company">Company</label>
+              <input id="company" name="company">
+            </div>
+
+            <div class="push">
+              <label for="phone">Phone number</label>
+              <input id="phone" name="phone">
+            </div>
+
+            <div class="push">
+              <label for="email">Email address</label>
+              <input id="email" type="email" name="email" placeholder="me@me.com" aria-label="insert email address here" required>
+            </div>
+          </div>
+
+          <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+            <fieldset class="push-0">
+              <legend>Please select one of the following options:</legend>
+              <div class="grid">
+                <div class="unit xs-1 s-1 m-1 l-1 xl-1">
+                  <input type="radio" id="free-plan" name="plan-options">
+                  <label class="island-1-2" for="free-plan">FREE PLAN</label>
+                </div>
+                <div class="unit xs-1 s-1 m-1 l-1 xl-1">
+                  <input type="radio" id="basic-plan" name="plan-options">
+                  <label class="island-1-2" for="basic-plan">BASIC PLAN</label>
+                </div>
+                <div class="unit xs-1 s-1 m-1 l-1 xl-1">
+                  <input type="radio" id="premium-plan" name="plan-options">
+                  <label class="island-1-2" for="premium-plan">PREMIUM PLAN</label>
+                </div>
+                <div class="unit xs-1 s-1 m-1 l-1 xl-1">
+                  <input type="radio" id="custom-plan" name="plan-options">
+                  <label class="island-1-2" for="custom-plan">CUSTOM PLAN</label>
+                </div>
+                <div class="unit xs-1 s-1 m-1 l-1 xl-1">
+                  <input type="radio" id="general-inquiries" name="plan-options">
+                  <label class="island-1-2" for="general-inquiries">GENERAL INQUIRIES</label>
+                </div>
+              </div>
+            </fieldset>
+
+            <div class="push">
+              <label for="details">Comments</label>
+              <textarea class="textbox" id="details" name="comments" required></textarea>
+            </div>
+
+            <div class="center-content-horizontal">
+              <button class="btn green mega" type="submit">Submit</button>
+            </div>
+
+            <div>
+              <input type="hidden" name="_subject" value="Request for subscription">
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
   </main>
 
   <footer>
