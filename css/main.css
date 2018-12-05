@@ -59,7 +59,7 @@ a {
 .staff dl {
   margin: 0 0 1rem;
   padding-top: 1rem;
-  font-size: .875rem;
+  text-size: .875rem;
 }
 
 .staff dt {
@@ -75,7 +75,7 @@ a {
 .dog-bios dl {
   margin: 0 0 1rem;
   padding-top: 1rem;
-  font-size: .875rem;
+  text-size: .875rem;
 }
 
 .dog-bios dt {
@@ -167,3 +167,4 @@ table {
   nav li {
     width: auto;
   }
+}
