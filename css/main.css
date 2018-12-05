@@ -8,6 +8,10 @@ header {
   display: block;
 }
 
+.transparent-background {
+
+}
+
 nav li {
   list-style-type: none;
   width: 100%;
