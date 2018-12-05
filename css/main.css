@@ -56,11 +56,6 @@ a {
   border: 2px solid #fefefe;
 }
 
-.banner {
-  text-align: center;
-  position: relative;
-}
-
 .staff dl {
   margin: 0 0 1rem;
   padding-top: 1rem;
@@ -94,23 +89,21 @@ a {
   width: 45%;
 }
 
-.banner-content {
-  position: absolute;
-  width: 90%;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+.banner {
+  text-align: center;
+  position: relative;
 }
 
-.container {
-  max-height: 700px;
-  overflow: hidden;
+.banner-text {
+  position: absolute;
+  bottom: 3em;
+  left: auto;
 }
 
 .transparent-white {
+  text-align: center;
   background-color: rgba(255, 255, 255, .75);
   color: #232f36;
-  border-radius: 10px;
 }
 
 .table-icon {
@@ -125,12 +118,6 @@ a {
   background-color: #3f5866;
   color: #fefefe;
   border: 2px solid #3f5866;
-}
-
-.banner-text {
-  position: absolute;
-  bottom: .5em;
-  left: 20%;
 }
 
 footer {
