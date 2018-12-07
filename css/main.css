@@ -6,6 +6,7 @@ html {
 header {
   position: relative;
   display: block;
+  text-align: center;
 }
 
 .transparent-img {
@@ -22,18 +23,6 @@ header {
 .shadow {
   box-shadow: 0 3px 5px;
   z-index: 999;
-}
-
-nav li {
-  list-style-type: none;
-  width: 100%;
-  text-align: center;
-}
-
-a {
-  color: #232f36;
-  display: block;
-  text-decoration: none;
 }
 
 .btn {
@@ -162,9 +151,5 @@ table {
 
   nav {
     text-align: right;
-  }
-
-  nav li {
-    width: auto;
   }
 }
