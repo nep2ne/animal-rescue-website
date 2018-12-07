@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>Freedom Dog Rescue • Apply</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="shortcut icon" href="favicon.ico">
   <link rel="icon" type="image/png" href="favicon-196.png">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
@@ -28,7 +28,7 @@
         <li class="pad-b-1-2"><a class="btn island-1-4 gutter-half list-group-item" href="rescues.html">Adopt</a></li>
         <li class="pad-b-1-2"><a class="btn island-1-4 gutter-half current list-group-item" href="adopt.html">Apply</a></li>
         <li class="pad-b-1-2"><a class="btn island-1-4 gutter-half list-group-item" href="">Stores</a></li>
-        <li class="pad-b-1-2"><a class="btn btn-donate island-1-4 gutter-half list-group-item" href="">Donate</a></li>
+        <li class="pad-b-1-2"><a class="btn btn-donate bold island-1-4 gutter-half list-group-item" href="">Donate</a></li>
       </ul>
     </nav>
   </header>
@@ -76,76 +76,50 @@
 
             <div class="push">
               <label for="address">Address:*</label>
-              <input id="address" type="address" name="addres" aria-label="insert address here" required>
+              <textarea class="textbox" id="address" name="address" aria-label="insert address here"></textarea>
             </div>
           </div>
 
-          <!-- <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
-            <fieldset class="push-0">
-              <legend>Please select one of the following options:</legend>
-              <div class="grid">
-                <div class="unit xs-1 s-1 m-1 l-1 xl-1">
-                  <input type="radio" id="free-plan" name="plan-options">
-                  <label class="island-1-2" for="free-plan">FREE PLAN</label>
-                </div>
-                <div class="unit xs-1 s-1 m-1 l-1 xl-1">
-                  <input type="radio" id="basic-plan" name="plan-options">
-                  <label class="island-1-2" for="basic-plan">BASIC PLAN</label>
-                </div>
-                <div class="unit xs-1 s-1 m-1 l-1 xl-1">
-                  <input type="radio" id="premium-plan" name="plan-options">
-                  <label class="island-1-2" for="premium-plan">PREMIUM PLAN</label>
-                </div>
-                <div class="unit xs-1 s-1 m-1 l-1 xl-1">
-                  <input type="radio" id="custom-plan" name="plan-options">
-                  <label class="island-1-2" for="custom-plan">CUSTOM PLAN</label>
-                </div>
-                <div class="unit xs-1 s-1 m-1 l-1 xl-1">
-                  <input type="radio" id="general-inquiries" name="plan-options">
-                  <label class="island-1-2" for="general-inquiries">GENERAL INQUIRIES</label>
-                </div> -->
-              </div>
-            </fieldset>
+          <div class="center-content-horizontal">
+            <a href="" class="btn green mega">Submit</a>
+          </div>
 
-            <div class="push">
-              <label for="details">Comments</label>
-              <textarea class="textbox" id="details" name="comments" required></textarea>
-            </div>
-
-            <div class="center-content-horizontal">
-              <a href="" class="btn green mega" type="submit">Submit</a>
-            </div>
-
-            <div>
-              <input type="hidden" name="_subject" value="Request for subscription">
-            </div>
+          <div>
+            <input type="hidden" name="_subject" value="Request for subscription">
           </div>
         </form>
       </div>
     </section>
   </main>
 
-  <footer role="contentinfo">
-    <div class="island">
+  <footer role="contentinfo grid">
+    <div class="unit xs-1 m-1-3 l-1-3 gutter pad-t">
+      <i class="icon i-32">
+        <a class="social-media-link" href=""><svg><use xlink:href="images/stats-sprite-sheet.svg#facebook-icon"></use></svg></a>
+      </i>
+      <i class="icon i-32">
+        <a class="social-media-link" href=""><svg><use xlink:href="images/stats-sprite-sheet.svg#instagram-icon"></use></svg></a>
+      </i>
+      <i class="icon i-32">
+        <a class="social-media-link" href=""><svg><use xlink:href="images/stats-sprite-sheet.svg#twitter-icon"></use></svg></a>
+      </i>
+    </div>
+
+    <div class="unit xs-1 m-1-3 l-1-3 island">
       <address class="not-italic">
         <span class="bold">Freedom Dog Rescue</span><br>
         123 Main Street<br>
         Ottawa, Ontario<br>
-        K2C2H8<br>
-        613.555.3525<br>
+        K2C2H8</br>
+        613.555.3525</br>
         freedomdogrescue@gmail.com
       </address>
     </div>
 
-    <div class="copyright">
-      <span></span>
+    <div class="unit xs-1 m-1-3 l-1-3 gutter pad-b micro copyright">
+      <span>©Neptune Designs</span>
     </div>
 
-    <div class="social-media-icons">
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-    </div>
   </footer>
   </body>
 </html>

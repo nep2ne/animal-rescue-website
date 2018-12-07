@@ -9,6 +9,7 @@ header {
   text-align: center;
 }
 
+
 .transparent-img {
   background-image: url("../images/boys-with-dog.jpg");
   height: 700px;
@@ -98,10 +99,6 @@ header {
   max-height: 3em;
 }
 
-.logo {
-  /* max-height: 3em; */
-}
-
 .btn:hover {
   background-color: #3f5866;
   color: #fefefe;
@@ -111,6 +108,26 @@ header {
 footer {
   background-color: #232f36;
   color: #fefefe;
+}
+
+.icon {
+  background-color: #232f36;
+  color: #fefefe;
+  display: inline-block;
+}
+
+.social-media-link {
+  background-color: #232f36;
+  color: #fefefe;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.social-media-link:hover {
+  background-color: #232f36;
+  color: #ff8f00;
+  display: inline-block;
+  text-decoration: none;
 }
 
 input,
