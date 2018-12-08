@@ -75,15 +75,14 @@ header {
   width: 45%;
 }
 
-.banner {
-  text-align: center;
-  position: relative;
+.absolute {
+  bottom: 1em;
+  left: 0;
+  width: 100%;
 }
 
-.banner-text {
-  position: absolute;
-  bottom: 3em;
-  left: auto;
+.absolute2 {
+  width: 100%;
 }
 
 .transparent-white {
