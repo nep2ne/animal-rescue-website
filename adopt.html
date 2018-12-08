@@ -44,15 +44,11 @@
     <section class="pad-t">
       <div class="wrapper">
         <form class="push-0 grid island" action="lepi0068@algonquinlive.com" method="POST">
-          <div>
-            <input class="hidden" type="text" name="_gotcha" style="display:none" />
-          </div>
           <div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter">
-
             <section>
               <div class="mega bold push">
                 <label class="date" for="date">Date:*</label>
-                <input class="dateinput" id="date" name="date" value="" required>
+                <input class="dateinput not-bold" id="date" name="date" value="" required>
               </div>
             </section>
 
@@ -99,8 +95,8 @@
 
             <section>
               <div class="mega bold push">
-                <label class="emaillabel" for="_replyto">Email address:*</label>
-                <input class="emailtextbox not-bold" id="email" type="email" name="_replyto" placeholder="me@me.com" aria-label="insert email address here" required>
+                <label class="emaillabel" for="email">Email address:*</label>
+                <input class="emailtextbox not-bold" id="email" type="email" placeholder="me@me.com" aria-label="insert email address here" required>
               </div>
             </section>
 
@@ -221,13 +217,17 @@
             </section>
 
             <div class="center-content-horizontal push">
-              <input class="btn btn-regular mega pad-t-1-2 pad-b-1-2" type="submit" value="Submit">
-              <input type="hidden" name="_next" value="https://nep2ne.github.io/animal-rescue-website/thankyou.html">
+              <input class="btn btn-regular mega pad-t-1-2 pad-b-1-2" id="submit" type="submit" value="Submit">
+              <label class="hidden" for="submit">Submit</label>
+              <input type="hidden" name="_next" id="thanks" value="https://nep2ne.github.io/animal-rescue-website/thankyou.html">
             </div>
           </div>
         </form>
       </div>
     </section>
+    <div class="island">
+      <a class="btn mega btn-regular" href="index.html">Return Home</a>
+    </div>
   </main>
 
   <footer role="contentinfo">
