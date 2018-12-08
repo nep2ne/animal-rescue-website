@@ -50,22 +50,17 @@
             <div class="push">
               <label class="mega bold animalidlabel" for="animal-id">Animal ID <span class="micro not-bold">(or undecided):</span></label>
               <input class="animalidtextbox push" id="animal-id" name="animal-id" required>
-              <p class="micro push-1-2">Please be aware adoption fees are as follows:
-                <span>Puppies under 6 months: $375</span>
-                <span>Dogs over 6 months: $300</span>
-              </p>
-              <p class="micro">Prices include:
-                <span>Vet visit/health check, first vaccinations (rabies and bordetella not included), microchip, spay/neuter, any veterinary care the animal received while in our care.</span>
-              </p>
+              <p class="micro push-1-2">Please be aware adoption fees are as follows:<span>Puppies under 6 months: $375</span><span>Dogs over 6 months: $300</span></p>
+              <p class="micro">Prices include:<span>Vet visit/health check, first vaccinations (rabies and bordetella not included), microchip, spay/neuter, any veterinary care the animal received while in our care.</span></p>
             </div>
 
             <div>
-              <h3>Personal contact information</h3>
+              <h2>Personal contact information</h2>
             </div>
 
             <section class="push">
               <div class="mega bold inlineblock">
-                <label for="name">Name:*</label>
+                <span>Name:*</span>
               </div>
 
               <div class="inlineblock">
@@ -102,7 +97,7 @@
 
             <section>
               <div class="mega bold addresslabel">
-                <label for="address">Address:*</label>
+                <span>Address:*</span>
               </div>
 
               <div class="streetaddressinput">
@@ -113,7 +108,7 @@
 
             <section>
               <div class="mega bold address-hidden">
-                <label for="address-hidden"></label>
+                <span class="address-hidden"></span>
               </div>
 
               <div class="cityaddressinput">
@@ -125,26 +120,26 @@
                 <label class="milli" for="province">Province</label>
                 <input id="province" list="province-list" required>
                 <datalist id="province-list">
-                  <option value="Alberta">
-                  <option value="British Columbia">
-                  <option value="Manitoba">
-                  <option value="New Brunswick">
-                  <option value="Newfoundland & Labrador">
-                  <option value="Northwest Territories">
-                  <option value="Nova Scotia">
-                  <option value="Nunavut">
-                  <option value="Ontario">
-                  <option value="Prince Edward Island">
-                  <option value="Québec">
-                  <option value="Saskatchewan">
-                  <option value="Yukon">
+                  <option value="Alberta"></option>
+                  <option value="British Columbia"></option>
+                  <option value="Manitoba"></option>
+                  <option value="New Brunswick"></option>
+                  <option value="Newfoundland & Labrador"></option>
+                  <option value="Northwest Territories"></option>
+                  <option value="Nova Scotia"></option>
+                  <option value="Nunavut"></option>
+                  <option value="Ontario"></option>
+                  <option value="Prince Edward Island"></option>
+                  <option value="Québec"></option>
+                  <option value="Saskatchewan"></option>
+                  <option value="Yukon"></option>
                 </datalist>
               </div>
             </section>
 
             <section>
               <div class="mega bold postalcode-hidden">
-                <label for="postalcode-hidden"></label>
+                <span class="postalcode-hidden"></span>
               </div>
 
               <div class="postalcode push">
@@ -156,13 +151,13 @@
             <section>
               <fieldset>
                 <div class="question mega">
-                  <span>Have you ever owned a pet?*</span>
+                  <span class="bold">Have you ever owned a pet?*</span>
                 </div>
                 <div class="answers">
                   <input type="radio" id="owner-yes" name="petownership">
-                  <label for="yes">Yes</label>
+                  <label for="owner-yes">Yes</label>
                   <input type="radio" id="owner-no" name="petownership">
-                  <label for="no">No</label>
+                  <label for="owner-no">No</label>
                 </div>
               </fieldset>
             </section>
@@ -170,13 +165,13 @@
             <section>
               <fieldset>
                 <div class="question mega">
-                  <span>Have you ever surrendered an animal for any reason?*</span>
+                  <span class="bold">Have you ever surrendered an animal for any reason?*</span>
                 </div>
                 <div class="answers">
                   <input type="radio" id="surrender-yes" name="petownership">
-                  <label for="yes">Yes</label>
+                  <label for="surrender-yes">Yes</label>
                   <input type="radio" id="surrender-no" name="petownership">
-                  <label for="no">No</label>
+                  <label for="surrender-no">No</label>
                 </div>
               </fieldset>
             </section>
@@ -184,31 +179,31 @@
             <section>
               <fieldset>
                 <div class="question mega">
-                  <span>Do you currently have pets living at your residence?*</span>
+                  <span class="bold">Do you currently have pets living at your residence?*</span>
                 </div>
                 <div class="answers">
                   <input type="radio" id="current-yes" name="petownership">
-                  <label for="yes">Yes</label>
+                  <label for="current-yes">Yes</label>
                   <input type="radio" id="current-no" name="petownership">
-                  <label for="no">No</label>
+                  <label for="current-no">No</label>
                 </div>
               </fieldset>
             </section>
 
             <div>
-              <h3>Training information</h3>
+              <h2>Training information</h2>
             </div>
 
             <section>
               <fieldset>
                 <div class="question mega">
-                  <span>Have your current pets attended professional training classes?*</span>
+                  <span class="bold">Have your current pets attended professional training classes?*</span>
                 </div>
                 <div class="answers">
                   <input type="radio" id="training-yes" name="petownership">
-                  <label for="yes">Yes</label>
+                  <label for="training-yes">Yes</label>
                   <input type="radio" id="training-no" name="petownership">
-                  <label for="no">No</label>
+                  <label for="training-no">No</label>
                   <input type="radio" id="no-current-pets" name="petownership">
                   <label for="no-current-pets">No current pets</label>
                 </div>
@@ -217,7 +212,7 @@
 
             <section>
               <div class="mega bold push">
-                <label class="opinionlabel" for="phone">What is your opinion about using a crate for training purposes?*</label>
+                <label class="opinionlabel" for="opinion">What is your opinion about using a crate for training purposes?*</label>
                 <input class="opinionanswer not-bold" id="opinion" type="text" name="opinion" value="" required>
               </div>
             </section>
@@ -225,39 +220,40 @@
             <section>
               <fieldset>
                 <div class="question mega">
-                  <span>Will you take any new pet to training or obedience classes?*</span>
+                  <span class="bold">Will you take any new pet to training or obedience classes?*</span>
                 </div>
                 <div class="answers">
                   <input type="radio" id="obedience-yes" name="petownership">
-                  <label for="yes">Yes</label>
+                  <label for="obedience-yes">Yes</label>
                   <input type="radio" id="obedience-no" name="petownership">
-                  <label for="no">No</label>
+                  <label for="obedience-no">No</label>
                 </div>
               </fieldset>
             </section>
 
-          <div class="center-content-horizontal push">
-            <a href="" class="btn mega">Submit</a>
-          </div>
+            <div class="center-content-horizontal push">
+              <a href="" class="btn mega">Submit</a>
+            </div>
 
-          <div>
-            <input type="hidden" name="_subject" value="Request for subscription">
+            <div>
+              <input type="hidden" name="_subject" value="Request for subscription">
+            </div>
           </div>
-        </div>
-      </form>
+        </form>
+      </div>
     </section>
   </main>
 
   <footer role="contentinfo">
     <div class="unit xs-1 m-1-3 l-1-3 gutter pad-t">
-      <i class="icon i-32">
-        <a class="social-media-link" href="https://www.instagram.com/nep2ne/?hl=en"><svg><use xlink:href="images/stats-sprite-sheet.svg#facebook-icon"></use></svg></a>
+      <i class="icon i-64">
+        <a class="social-media-link" href="https://www.instagram.com/nep2ne/?hl=en">I<svg class="social-media-link-icon"><use xlink:href="images/stats-sprite-sheet.svg#facebook-icon"></use></svg></a>
       </i>
-      <i class="icon i-32">
-        <a class="social-media-link" href="https://www.facebook.com/genevieve.lepine.73"><svg><use xlink:href="images/stats-sprite-sheet.svg#instagram-icon"></use></svg></a>
+      <i class="icon i-64">
+        <a class="social-media-link" href="https://www.facebook.com/genevieve.lepine.73">F<svg class="social-media-link-icon"><use xlink:href="images/stats-sprite-sheet.svg#instagram-icon"></use></svg></a>
       </i>
-      <i class="icon i-32">
-        <a class="social-media-link" href="https://twitter.com/GenevieveLepine"><svg><use xlink:href="images/stats-sprite-sheet.svg#twitter-icon"></use></svg></a>
+      <i class="icon i-64">
+        <a class="social-media-link" href="https://twitter.com/GenevieveLepine">T<svg class="social-media-link-icon"><use xlink:href="images/stats-sprite-sheet.svg#twitter-icon"></use></svg></a>
       </i>
     </div>
 

@@ -115,12 +115,21 @@ footer {
 
 .social-media-link {
   background-color: #232f36;
+  color: #232f36;
+  display: inline-block;
+  text-decoration: none;
+  width: 64px;
+  height: 64px;
+}
+
+.social-media-link-icon {
+  background-color: #232f36;
   color: #fefefe;
   display: inline-block;
   text-decoration: none;
 }
 
-.social-media-link:hover {
+.social-media-link-icon:hover {
   background-color: #232f36;
   color: #ff8f00;
   display: inline-block;
@@ -178,7 +187,7 @@ table {
 .question,
 .opinionlabel {
   display: inline-block;
-  width: 42%;
+  width: 44%;
 }
 
 .answers {
