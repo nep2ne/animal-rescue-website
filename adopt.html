@@ -144,49 +144,37 @@
 
               <div class="postalcode push">
                 <label class="milli" for="postalcode">Postal code</label>
-                <input id="postalcode" type="text" value="" name="postalcode" required>
+                <input id="postalcode" type="text" pattern="[A-Za-z][0-9][A-Za-z] ?[0-9][A-Za-z][0-9]" value="" name="postalcode" required>
               </div>
             </section>
 
             <section>
               <fieldset>
-                <div class="question mega">
-                  <span class="bold">Have you ever owned a pet?*</span>
-                </div>
-                <div class="answers">
-                  <input type="radio" id="owner-yes" name="petownership">
-                  <label for="owner-yes">Yes</label>
-                  <input type="radio" id="owner-no" name="petownership">
-                  <label for="owner-no">No</label>
-                </div>
+                <legend class="question mega bold">Have you ever owned a pet?*</legend>
+                <input type="radio" id="owner-yes" name="petownership">
+                <label class="answers" for="owner-yes">Yes</label>
+                <input type="radio" id="owner-no" name="petownership">
+                <label class="answers" for="owner-no">No</label>
               </fieldset>
             </section>
 
             <section>
               <fieldset>
-                <div class="question mega">
-                  <span class="bold">Have you ever surrendered an animal for any reason?*</span>
-                </div>
-                <div class="answers">
-                  <input type="radio" id="surrender-yes" name="petownership">
-                  <label for="surrender-yes">Yes</label>
-                  <input type="radio" id="surrender-no" name="petownership">
-                  <label for="surrender-no">No</label>
-                </div>
+                <legend class="question mega bold">Have you ever surrendered an animal for any reason?*</legend>
+                <input type="radio" id="surrender-yes" name="petownership">
+                <label class="answers" for="surrender-yes">Yes</label>
+                <input type="radio" id="surrender-no" name="petownership">
+                <label class="answers" for="surrender-no">No</label>
               </fieldset>
             </section>
 
             <section>
               <fieldset>
-                <div class="question mega">
-                  <span class="bold">Do you currently have pets living at your residence?*</span>
-                </div>
-                <div class="answers">
-                  <input type="radio" id="current-yes" name="petownership">
-                  <label for="current-yes">Yes</label>
-                  <input type="radio" id="current-no" name="petownership">
-                  <label for="current-no">No</label>
-                </div>
+                <legend class="bold question mega">Do you currently have pets living at your residence?*</legend>
+                <input type="radio" id="current-yes" name="petownership">
+                <label class="answers" for="current-yes">Yes</label>
+                <input type="radio" id="current-no" name="petownership">
+                <label class="answers" for="current-no">No</label>
               </fieldset>
             </section>
 
@@ -196,17 +184,13 @@
 
             <section>
               <fieldset>
-                <div class="question mega">
-                  <span class="bold">Have your current pets attended professional training classes?*</span>
-                </div>
-                <div class="answers">
-                  <input type="radio" id="training-yes" name="petownership">
-                  <label for="training-yes">Yes</label>
-                  <input type="radio" id="training-no" name="petownership">
-                  <label for="training-no">No</label>
-                  <input type="radio" id="no-current-pets" name="petownership">
-                  <label for="no-current-pets">No current pets</label>
-                </div>
+                <legend class="question mega bold">Have your current pets attended professional training classes?*</legend>
+                <input type="radio" id="training-yes" name="petownership">
+                <label class="answers" for="training-yes">Yes</label>
+                <input type="radio" id="training-no" name="petownership">
+                <label class="answers" for="training-no">No</label>
+                <input type="radio" id="no-current-pets" name="petownership">
+                <label class="answers" for="no-current-pets">No current pets</label>
               </fieldset>
             </section>
 
@@ -219,15 +203,11 @@
 
             <section>
               <fieldset>
-                <div class="question mega">
-                  <span class="bold">Will you take any new pet to training or obedience classes?*</span>
-                </div>
-                <div class="answers">
-                  <input type="radio" id="obedience-yes" name="petownership">
-                  <label for="obedience-yes">Yes</label>
-                  <input type="radio" id="obedience-no" name="petownership">
-                  <label for="obedience-no">No</label>
-                </div>
+                <legend class="question mega bold">Will you take any new pet to training or obedience classes?*</legend>
+                <input type="radio" id="obedience-yes" name="petownership">
+                <label class="answers" for="obedience-yes">Yes</label>
+                <input type="radio" id="obedience-no" name="petownership">
+                <label class="answers" for="obedience-no">No</label>
               </fieldset>
             </section>
 
@@ -273,5 +253,5 @@
     </div>
 
   </footer>
-  </body>
+</body>
 </html>

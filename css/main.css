@@ -187,12 +187,12 @@ table {
 .question,
 .opinionlabel {
   display: inline-block;
-  width: 44%;
+  width: 46%;
 }
 
 .answers {
   display: inline-block;
-  width: 50%;
+  width: 25%;
 }
 
 .opinionanswer {
