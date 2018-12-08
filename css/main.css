@@ -9,7 +9,6 @@ header {
   text-align: center;
 }
 
-
 .transparent-img {
   background-image: url("../images/boys-with-dog.jpg");
   height: 700px;
@@ -142,16 +141,57 @@ fieldset {
   border-top: none;
 }
 
-.textbox {
-  height: 10em;
-}
-
 table {
   border-collapse: collapse;
 }
 
 .table-width {
   min-width: 40em;
+}
+
+.inlineblock {
+  display: inline-block;
+  width: 32.7%;
+}
+
+.phonelabel,
+.date,
+.emaillabel,
+.animalidlabel,
+.addresslabel,
+.cityaddressinput,
+.provinceaddressinput,
+.address-hidden,
+.postalcode-hidden,
+.postalcode {
+  display: inline-block;
+  width: 32.7%;
+}
+
+.phonetextbox,
+.dateinput,
+.emailtextbox,
+.animalidtextbox,
+.streetaddressinput {
+  display: inline-block;
+  width: 66%;
+}
+
+.question,
+.opinionlabel {
+  display: inline-block;
+  width: 42%;
+}
+
+.answers {
+  display: inline-block;
+  width: 50%;
+}
+
+.opinionanswer {
+  display: inline-block;
+  width: 50%;
+  height: 10em;
 }
 
 .card-width {
