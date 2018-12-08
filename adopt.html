@@ -63,183 +63,182 @@
               <h3>Personal contact information</h3>
             </div>
 
-            <form name="message" method="post">
-              <section class="push">
-                <div class="mega bold inlineblock">
-                  <label for="name">Name:*</label>
-                </div>
-
-                <div class="inlineblock">
-                  <label class="milli" for="name">First</label>
-                  <input id="firstname" type="text" value="" name="firstname" required>
-                </div>
-
-                <div class="inlineblock">
-                  <label class="milli" for="name">Last</label>
-                  <input id="lastname" type="text" value="" name="lastname" required>
-                </div>
-              </section>
-
-              <section>
-                <div class="mega bold push">
-                  <label class="phonelabel" for="phone">Phone number:*</label>
-                  <input class="phonetextbox not-bold" id="phone" type="text" name="phone" value="" name="phone" required>
-                </div>
-              </section>
-
-              <section>
-                <div class="mega bold push">
-                  <label class="phonelabel" for="alternate-phone">Alternate number:</label>
-                  <input class="phonetextbox not-bold" id="alternate-phone" type="text" name="alternate-phone" value="" name="phone" required>
-                </div>
-              </section>
-
-              <section>
-                <div class="mega bold push">
-                  <label class="emaillabel" for="email">Email address:*</label>
-                  <input class="emailtextbox not-bold" id="email" type="email" name="email" placeholder="me@me.com" aria-label="insert email address here" required>
-                </div>
-              </section>
-
-              <section>
-                <div class="mega bold addresslabel">
-                  <label for="address">Address:*</label>
-                </div>
-
-                <div class="streetaddressinput">
-                  <label class="milli" for="streetaddress">Street address</label>
-                  <input id="streetaddress" type="text" value="" name="streetaddress" required>
-                </div>
-              </section>
-
-              <section>
-                <div class="mega bold address-hidden">
-                  <label for="address-hidden"></label>
-                </div>
-
-                <div class="cityaddressinput">
-                  <label class="milli" for="cityaddress">City</label>
-                  <input id="cityaddress" type="text" value="" name="cityaddress" required>
-                </div>
-
-                <div class="provinceaddressinput">
-                  <label class="milli" for="province">Province</label>
-                  <input id="province" list="province-list" required>
-                  <datalist id="province-list">
-                    <option value="Alberta">
-                    <option value="British Columbia">
-                    <option value="Manitoba">
-                    <option value="New Brunswick">
-                    <option value="Newfoundland & Labrador">
-                    <option value="Northwest Territories">
-                    <option value="Nova Scotia">
-                    <option value="Nunavut">
-                    <option value="Ontario">
-                    <option value="Prince Edward Island">
-                    <option value="Québec">
-                    <option value="Saskatchewan">
-                    <option value="Yukon">
-                  </datalist>
-                </div>
-              </section>
-
-              <section>
-                <div class="mega bold postalcode-hidden">
-                  <label for="postalcode-hidden"></label>
-                </div>
-
-                <div class="postalcode push">
-                  <label class="milli" for="postalcode">Postal code</label>
-                  <input id="postalcode" type="text" value="" name="postalcode" required>
-                </div>
-              </section>
-
-              <section>
-                <fieldset>
-                  <div class="question mega">
-                    <legend>Have you ever owned a pet?*</legend>
-                  </div>
-                  <div class="answers">
-                    <input type="radio" id="yes" name="petownership">
-                    <label for="yes">Yes</label>
-                    <input type="radio" id="no" name="petownership">
-                    <label for="no">No</label>
-                  </div>
-                </fieldset>
-              </section>
-
-              <section>
-                <fieldset>
-                  <div class="question mega">
-                    <legend>Have you ever surrendered an animal for any reason?*</legend>
-                  </div>
-                  <div class="answers">
-                    <input type="radio" id="yes" name="petownership">
-                    <label for="yes">Yes</label>
-                    <input type="radio" id="no" name="petownership">
-                    <label for="no">No</label>
-                  </div>
-                </fieldset>
-              </section>
-
-              <section>
-                <fieldset>
-                  <div class="question mega">
-                    <legend>Do you currently have pets living at your residence?*</legend>
-                  </div>
-                  <div class="answers">
-                    <input type="radio" id="yes" name="petownership">
-                    <label for="yes">Yes</label>
-                    <input type="radio" id="no" name="petownership">
-                    <label for="no">No</label>
-                  </div>
-                </fieldset>
-              </section>
-
-              <div>
-                <h3>Training information</h3>
+            <section class="push">
+              <div class="mega bold inlineblock">
+                <label for="name">Name:*</label>
               </div>
 
-              <section>
-                <fieldset>
-                  <div class="question mega">
-                    <legend>Have your current pets attended professional training classes?*</legend>
-                  </div>
-                  <div class="answers">
-                    <input type="radio" id="yes" name="petownership">
-                    <label for="yes">Yes</label>
-                    <input type="radio" id="no" name="petownership">
-                    <label for="no">No</label>
-                    <input type="radio" id="no-current-pets" name="petownership">
-                    <label for="no-current-pets">No current pets</label>
-                  </div>
-                </fieldset>
-              </section>
+              <div class="inlineblock">
+                <label class="milli" for="name">First</label>
+                <input id="firstname" type="text" value="" name="firstname" required>
+              </div>
 
-              <section>
-                <div class="mega bold push">
-                  <label class="opinionlabel" for="phone">What is your opinion about using a crate for training purposes?*</label>
-                  <input class="opinionanswer not-bold" id="opinion" type="text" name="opinion" value="" name="opinion" required>
+              <div class="inlineblock">
+                <label class="milli" for="name">Last</label>
+                <input id="lastname" type="text" value="" name="lastname" required>
+              </div>
+            </section>
+
+            <section>
+              <div class="mega bold push">
+                <label class="phonelabel" for="phone">Phone number:*</label>
+                <input class="phonetextbox not-bold" id="phone" type="text" name="phone" value="" name="phone" required>
+              </div>
+            </section>
+
+            <section>
+              <div class="mega bold push">
+                <label class="phonelabel" for="alternate-phone">Alternate number:</label>
+                <input class="phonetextbox not-bold" id="alternate-phone" type="text" name="alternate-phone" value="" name="phone" required>
+              </div>
+            </section>
+
+            <section>
+              <div class="mega bold push">
+                <label class="emaillabel" for="email">Email address:*</label>
+                <input class="emailtextbox not-bold" id="email" type="email" name="email" placeholder="me@me.com" aria-label="insert email address here" required>
+              </div>
+            </section>
+
+            <section>
+              <div class="mega bold addresslabel">
+                <label for="address">Address:*</label>
+              </div>
+
+              <div class="streetaddressinput">
+                <label class="milli" for="streetaddress">Street address</label>
+                <input id="streetaddress" type="text" value="" name="streetaddress" required>
+              </div>
+            </section>
+
+            <section>
+              <div class="mega bold address-hidden">
+                <label for="address-hidden"></label>
+              </div>
+
+              <div class="cityaddressinput">
+                <label class="milli" for="cityaddress">City</label>
+                <input id="cityaddress" type="text" value="" name="cityaddress" required>
+              </div>
+
+              <div class="provinceaddressinput">
+                <label class="milli" for="province">Province</label>
+                <input id="province" list="province-list" required>
+                <datalist id="province-list">
+                  <option value="Alberta">
+                  <option value="British Columbia">
+                  <option value="Manitoba">
+                  <option value="New Brunswick">
+                  <option value="Newfoundland & Labrador">
+                  <option value="Northwest Territories">
+                  <option value="Nova Scotia">
+                  <option value="Nunavut">
+                  <option value="Ontario">
+                  <option value="Prince Edward Island">
+                  <option value="Québec">
+                  <option value="Saskatchewan">
+                  <option value="Yukon">
+                </datalist>
+              </div>
+            </section>
+
+            <section>
+              <div class="mega bold postalcode-hidden">
+                <label for="postalcode-hidden"></label>
+              </div>
+
+              <div class="postalcode push">
+                <label class="milli" for="postalcode">Postal code</label>
+                <input id="postalcode" type="text" value="" name="postalcode" required>
+              </div>
+            </section>
+
+            <section>
+              <fieldset>
+                <div class="question mega">
+                  <legend>Have you ever owned a pet?*</legend>
                 </div>
-              </section>
+                <div class="answers">
+                  <input type="radio" id="owner-yes" name="petownership">
+                  <label for="yes">Yes</label>
+                  <input type="radio" id="owner-no" name="petownership">
+                  <label for="no">No</label>
+                </div>
+              </fieldset>
+            </section>
 
-              <section>
-                <fieldset>
-                  <div class="question mega">
-                    <legend>Will you take any new pet to training or obedience classes?*</legend>
-                  </div>
-                  <div class="answers">
-                    <input type="radio" id="yes" name="petownership">
-                    <label for="yes">Yes</label>
-                    <input type="radio" id="no" name="petownership">
-                    <label for="no">No</label>
-                  </div>
-                </fieldset>
-              </section>
+            <section>
+              <fieldset>
+                <div class="question mega">
+                  <legend>Have you ever surrendered an animal for any reason?*</legend>
+                </div>
+                <div class="answers">
+                  <input type="radio" id="surrender-yes" name="petownership">
+                  <label for="yes">Yes</label>
+                  <input type="radio" id="surrender-no" name="petownership">
+                  <label for="no">No</label>
+                </div>
+              </fieldset>
+            </section>
 
-          <div class="center-content-horizontal push">
-            <a href="" class="btn mega">Submit</a>
-          </div>
+            <section>
+              <fieldset>
+                <div class="question mega">
+                  <legend>Do you currently have pets living at your residence?*</legend>
+                </div>
+                <div class="answers">
+                  <input type="radio" id="current-yes" name="petownership">
+                  <label for="yes">Yes</label>
+                  <input type="radio" id="current-no" name="petownership">
+                  <label for="no">No</label>
+                </div>
+              </fieldset>
+            </section>
+
+            <div>
+              <h3>Training information</h3>
+            </div>
+
+            <section>
+              <fieldset>
+                <div class="question mega">
+                  <legend>Have your current pets attended professional training classes?*</legend>
+                </div>
+                <div class="answers">
+                  <input type="radio" id="training-yes" name="petownership">
+                  <label for="yes">Yes</label>
+                  <input type="radio" id="training-no" name="petownership">
+                  <label for="no">No</label>
+                  <input type="radio" id="no-current-pets" name="petownership">
+                  <label for="no-current-pets">No current pets</label>
+                </div>
+              </fieldset>
+            </section>
+
+            <section>
+              <div class="mega bold push">
+                <label class="opinionlabel" for="phone">What is your opinion about using a crate for training purposes?*</label>
+                <input class="opinionanswer not-bold" id="opinion" type="text" name="opinion" value="" name="opinion" required>
+              </div>
+            </section>
+
+            <section>
+              <fieldset>
+                <div class="question mega">
+                  <legend>Will you take any new pet to training or obedience classes?*</legend>
+                </div>
+                <div class="answers">
+                  <input type="radio" id="obedience-yes" name="petownership">
+                  <label for="yes">Yes</label>
+                  <input type="radio" id="obedience-no" name="petownership">
+                  <label for="no">No</label>
+                </div>
+              </fieldset>
+            </section>
+
+        <div class="center-content-horizontal push">
+          <a href="" class="btn mega">Submit</a>
+        </div>
 
           <div>
             <input type="hidden" name="_subject" value="Request for subscription">
