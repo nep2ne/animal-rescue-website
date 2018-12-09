@@ -45,7 +45,7 @@ header {
   background-color: #ff8f00;
   color: #232f36;
   border-radius: 4px;
-  border: 2px solid #ff8f00;
+  border: 3px solid #ff8f00;
   transition: all 200ms linear;
 }
 
@@ -206,7 +206,7 @@ table {
 .answers1,
 .answers2,
 .answers3,
-.andswers4 {
+.answers4 {
   display: inline-block;
   width: 25%;
 }
