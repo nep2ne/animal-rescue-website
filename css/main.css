@@ -171,7 +171,6 @@ table {
 }
 
 .phonelabel,
-.date,
 .emaillabel,
 .animalidlabel,
 .addresslabel,
@@ -185,7 +184,6 @@ table {
 }
 
 .phonetextbox,
-.dateinput,
 .emailtextbox,
 .animalidtextbox,
 .streetaddressinput {
@@ -193,27 +191,9 @@ table {
   width: 66%;
 }
 
-.question1,
-.question2,
-.question3,
-.question4,
-.opinionlabel {
-  display: inline-block;
-  width: 46%;
-}
-
-.answers,
-.answers1,
-.answers2,
-.answers3,
-.answers4 {
-  display: inline-block;
-  width: 25%;
-}
-
 .opinionanswer {
   display: inline-block;
-  width: 50%;
+  width: 100%;
   height: 10em;
 }
 

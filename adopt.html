@@ -29,8 +29,8 @@
         <ul class="list-group-inline push-0">
           <li class="text-center"><a class="btn btn-regular island-1-4 gutter-half list-group-item" href="rescues.html">Adopt</a></li>
           <li class="text-center"><a class="current btn btn-regular island-1-4 gutter-half list-group-item" href="adopt.html">Apply</a></li>
-          <li class="text-center"><a class="btn btn-regular island-1-4 gutter-half list-group-item" href="stories.html">Stories</a></li>
-          <li class="text-center"><a class="btn btn-donate bold island-1-4 gutter-half list-group-item" href="donate.html">Donate</a></li>
+          <li class="text-center"><a class="btn btn-regular island-1-4 gutter-half list-group-item" href="#">Stories</a></li>
+          <li class="text-center"><a class="btn btn-donate bold island-1-4 gutter-half list-group-item" href="#">Donate</a></li>
         </ul>
       </nav>
     </div>
@@ -45,83 +45,78 @@
       <div class="wrapper">
         <form class="push-0 grid island" method="POST" action="https://lepi0068@algonquinlive.com">
           <div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter">
-            <section>
-              <div class="mega bold push">
-                <label class="date" for="date">Date:*</label>
-                <input class="dateinput not-bold" id="date" name="date" value="" required>
+            <fieldset class="grid">
+              <legend class="unit xs-1 s-1 m-1">Date:*</legend>
+              <div class="mega bold push unit xs-1 s-1 m-1">
+                <label class="date hidden" for="date">Date:*</label>
+                <input class="not-bold" id="date" name="date" value="" required>
               </div>
-            </section>
+            </fieldset>
 
-            <div class="push">
-              <label class="mega bold animalidlabel" for="animal-id">Animal ID:*<span class="micro not-bold">(or undecided):</span></label>
-              <input class="animalidtextbox push" id="animal-id" name="animal-id" required>
-              <p class="micro push-1-2">Please be aware adoption fees are as follows:<span>Puppies under 6 months: $375</span><span>Dogs over 6 months: $300</span></p>
-              <p class="micro">Prices include:<span>Vet visit/health check, first vaccinations (rabies and bordetella not included), microchip, spay/neuter, any veterinary care the animal received while in our care.</span></p>
-            </div>
+            <fieldset class="grid">
+              <legend class="unit xs-1 s-1 m-1">Animal ID:*</legend>
+              <div class="push unit xs-1 s-1 m-1">
+                <label class="mega bold hidden" for="animal-id">Animal ID:*<span class="micro not-bold">(or undecided):</span></label>
+                <input class="push" id="animal-id" name="animal-id" required>
+                <p class="micro push-1-2">Please be aware adoption fees are as follows:<span>Puppies under 6 months: $375</span><span>Dogs over 6 months: $300</span></p>
+                <p class="micro">Prices include:<span>Vet visit/health check, first vaccinations (rabies and bordetella not included), microchip, spay/neuter, any veterinary care the animal received while in our care.</span></p>
+              </div>
+            </fieldset>
 
-            <div>
+            <div class="unit xs-1 s-1 m-1">
               <h2>Personal contact information</h2>
             </div>
 
-            <section class="push">
-              <div class="mega bold inlineblock">
-                <span>Name:*</span>
-              </div>
-
-              <div class="inlineblock">
+            <fieldset class="push grid">
+              <legend class="unit xs-1 s-1 m-1">Name:*</legend>
+              <div class="unit xs-1 s-1 m-1">
                 <label class="milli" for="firstname">First</label>
                 <input id="firstname" type="text" value="" name="firstname" required>
               </div>
 
-              <div class="inlineblock">
+              <div class="unit xs-1 s-1 m-1">
                 <label class="milli" for="lastname">Last</label>
                 <input id="lastname" type="text" value="" name="lastname" required>
               </div>
-            </section>
+            <fieldset>
 
-            <section>
-              <div class="mega bold push">
-                <label class="phonelabel" for="phone">Phone number:*</label>
-                <input class="phonetextbox not-bold" id="phone" type="text" name="phone" value="" required>
+            <fieldset class="grid push">
+              <legend class="unit xs-1 s-1 m-1">Phone number:*</legend>
+              <div class="mega bold unit xs-1 s-1 m-1">
+                <label class="hidden" for="phone">Phone number:*</label>
+                <input class="not-bold" id="phone" type="text" name="phone" value="" required>
               </div>
-            </section>
+            </fieldset>
 
-            <section>
-              <div class="mega bold push">
-                <label class="phonelabel" for="alternate-phone">Alternate number:</label>
-                <input class="phonetextbox not-bold" id="alternate-phone" type="text" name="alternate-phone" value="">
+            <fieldset class="grid push">
+              <legend class="unit xs-1 s-1 m-1">Alternate number:*</legend>
+              <div class="mega bold unit xs-1 s-1 m-1">
+                <label class="hidden" for="phone">Alternate number:*</label>
+                <input class="not-bold" id="phone" type="text" name="phone" value="">
               </div>
-            </section>
+            </fieldset>
 
-            <section>
-              <div class="mega bold push">
-                <label class="emaillabel" for="email">Email address:*</label>
-                <input class="emailtextbox not-bold" id="email" type="email" placeholder="me@me.com" aria-label="insert email address here" required>
+            <fieldset class="grid push">
+              <legend class="unit xs-1 s-1 m-1">Email address:*</legend>
+              <div class="unit xs-1 s-1 m-1 mega bold push">
+                <label class="hidden" for="email">Email address:*</label>
+                <input class="not-bold" id="email" type="email" placeholder="me@me.com" aria-label="insert email address here" required>
               </div>
-            </section>
+            </fieldset>
 
-            <section>
-              <div class="mega bold addresslabel">
-                <span>Address:*</span>
-              </div>
-
-              <div class="streetaddressinput">
+            <fieldset class="grid push">
+              <legend class="unit xs-1 s-1 m-1">Address:*</legend>
+              <div class="unit xs-1 s-1 m-1">
                 <label class="milli" for="streetaddress">Street address</label>
                 <input id="streetaddress" type="text" value="" name="streetaddress" required>
               </div>
-            </section>
 
-            <section>
-              <div class="mega bold address-hidden">
-                <span class="address-hidden"></span>
-              </div>
-
-              <div class="cityaddressinput">
+              <div class="unit xs-1 s-1 m-1">
                 <label class="milli" for="cityaddress">City</label>
                 <input id="cityaddress" type="text" value="" name="cityaddress" required>
               </div>
 
-              <div class="provinceaddressinput">
+              <div class="unit xs-1 s-1 m-1">
                 <label class="milli" for="province">Province</label>
                 <input id="province" list="province-list" required>
                 <datalist id="province-list">
@@ -140,87 +135,84 @@
                   <option value="Yukon"></option>
                 </datalist>
               </div>
-            </section>
 
-            <section>
-              <div class="mega bold postalcode-hidden">
-                <span class="postalcode-hidden"></span>
-              </div>
-
-              <div class="postalcode push">
+              <div class="unit xs-1 s-1 m-1 push">
                 <label class="milli" for="postalcode">Postal code</label>
                 <input id="postalcode" type="text" pattern="[A-Za-z][0-9][A-Za-z] ?[0-9][A-Za-z][0-9]" value="" name="postalcode" required>
               </div>
-            </section>
+            </fieldset>
 
-            <section>
-              <fieldset>
-                <legend class="question1 mega bold">Have you ever owned a pet?*</legend>
+            <fieldset class="grid">
+              <legend class="unit xs-1 s-1 m-1 push mega bold">Have you ever owned a pet?*</legend>
+              <div class="unit xs-1 push">
                 <input type="radio" id="owner-yes" name="petownership">
-                <label class="answers" for="owner-yes">Yes</label>
+                <label for="owner-yes">Yes</label>
                 <input type="radio" id="owner-no" name="petownership">
-                <label class="answers" for="owner-no">No</label>
-              </fieldset>
-            </section>
+                <label for="owner-no">No</label>
+              </div>
+            </fieldset>
 
-            <section>
-              <fieldset>
-                <legend class="question2 mega bold">Have you ever surrendered an animal for any reason?*</legend>
+            <fieldset class="grid">
+              <legend class="unit xs-1 s-1 m-1 push mega bold">Have you ever surrendered an animal for any reason?*</legend>
+              <div class="unit xs-1 push">
                 <input type="radio" id="surrender-yes" name="surrender">
-                <label class="answers1" for="surrender-yes">Yes</label>
+                <label for="surrender-yes">Yes</label>
                 <input type="radio" id="surrender-no" name="surrender">
-                <label class="answers1" for="surrender-no">No</label>
-              </fieldset>
-            </section>
+                <label for="surrender-no">No</label>
+              </div>
+            </fieldset>
 
-            <section>
-              <fieldset>
-                <legend class="bold question3 mega">Do you currently have pets living at your residence?*</legend>
+            <fieldset class="grid">
+              <legend class="unit xs-1 s-1 m-1 push bold mega">Do you currently have pets living at your residence?*</legend>
+              <div class="unit xs-1 push">
                 <input type="radio" id="current-yes" name="current-residence">
-                <label class="answers2" for="current-yes">Yes</label>
+                <label for="current-yes">Yes</label>
                 <input type="radio" id="current-no" name="current-residence">
-                <label class="answers2" for="current-no">No</label>
-              </fieldset>
-            </section>
+                <label for="current-no">No</label>
+              </div>
+            </fieldset>
 
-            <div>
+            <div class="unit xs-1 s-1 m-1">
               <h2>Training information</h2>
             </div>
 
-            <section>
-              <fieldset>
-                <legend class="question4 mega bold">Have your current pets attended professional training classes?*</legend>
+            <fieldset class="grid">
+              <legend class="unit xs-1 s-1 m-1 push mega bold">Have your current pets attended professional training classes?*</legend>
+              <div class="unit xs-1 push">
                 <input type="radio" id="training-yes" name="training">
-                <label class="answers3" for="training-yes">Yes</label>
+                <label for="training-yes">Yes</label>
                 <input type="radio" id="training-no" name="training">
-                <label class="answers" for="training-no">No</label>
+                <label for="training-no">No</label>
                 <input type="radio" id="no-current-pets" name="training">
                 <label class="answers3" for="no-current-pets">No current pets</label>
-              </fieldset>
-            </section>
+              </div>
+            </fieldset>
 
-            <section>
-              <div class="mega bold push">
-                <label class="opinionlabel" for="opinion">What is your opinion about using a crate for training purposes?*</label>
+            <fieldset class="grid">
+              <div class="unit xs-1 s-1 m-1 mega bold push">
+                <label for="opinion push">What is your opinion about using a crate for training purposes?*</label>
                 <input class="opinionanswer not-bold" id="opinion" type="text" name="opinion" value="" required>
               </div>
-            </section>
+            </fieldset>
 
-            <section>
-              <fieldset>
-                <legend class="question mega bold">Will you take any new pet to training or obedience classes?*</legend>
+            <fieldset class="grid">
+              <legend class="unit xs-1 s-1 m-1 question mega bold">Will you take any new pet to training or obedience classes?*</legend>
+              <div class="unit xs-1 s-1 m-1">
                 <input type="radio" id="obedience-yes" name="obedience">
-                <label class="answers4" for="obedience-yes">Yes</label>
+                <label for="obedience-yes">Yes</label>
                 <input type="radio" id="obedience-no" name="obedience">
-                <label class="answers4" for="obedience-no">No</label>
-              </fieldset>
-            </section>
+                <label for="obedience-no">No</label>
+              </div>
+            </fieldset>
 
-            <div class="center-content-horizontal push">
-              <input class="hidden" id="submit" type="submit" value="Submit">
-              <label class="btn btn-regular mega pad-t-1-2 pad-b-1-2" for="submit">Submit</label>
-              <input type="hidden" name="_next" id="thanks" value="https://nep2ne.github.io/animal-rescue-website/thankyou.html">
-            </div>
+            <fieldset class="grid">
+              <legend class="unit xs-1 s-1 m-1 push"></legend>
+              <div class="unit xs-1 s-1 m-1 center-content-horizontal push">
+                <input class="hidden" id="submit" type="submit" value="Submit">
+                <label class="btn btn-regular mega pad-t-1-2 pad-b-1-2" for="submit">Submit</label>
+                <input type="hidden" name="_next" id="thanks" value="https://nep2ne.github.io/animal-rescue-website/thankyou.html">
+              </div>
+            </fieldset>
           </div>
         </form>
       </div>
@@ -250,7 +242,7 @@
         Ottawa, Ontario<br>
         K2C2H8<br>
         613.555.3525<br>
-        freedomdogrescue@gmail.com
+        freedog@gmail.com
       </address>
     </div>
 
